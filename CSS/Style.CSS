@@ -23,48 +23,87 @@ header h1{
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
-    font-size: 400;
+    font-size: 40px;
 }
 header a{
-    font-size: 300;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     color: white;
 }
 section{
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     margin: 20px;
 }
 section h1{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
-    font-size: 300;
+    font-size: 25px;
     color: black;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 section p{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
-    font-size: 200;
+    font-size: 18px;
+    margin: 10px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 section img{
-    border-radius: 4%;
+    border-radius: 4% 4% 0 0;
+    width: 400px;
 }
 section button{
-    background-color: black;
+    background-color: rgb(11, 43, 187);
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
-    border-radius: 4%;
+    border-radius: 8%;
     color: white;
-    font-size: 700;
-    height: 25px
+    font-size: 14px;
+    height: 40px;
+    width: 80px;
+    border: 0;
 }
 body{
     background-image: url(https://neilpatel.com/wp-content/uploads/2017/12/10-tipos-de-codigos-html-web.jpeg);
     background-size: 100%;
 }
 footer{
-    height: 200px;
-    background-color: black;
+
+}
+.one{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 4%;
+}
+.two{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 4%;
+}
+.three{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 4%;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
