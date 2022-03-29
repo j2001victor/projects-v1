@@ -2,9 +2,8 @@ header, h1, p, a, main, section{
     margin: 0;
     padding: 0;
 }
-
 header{
-    height: 320px;
+    height: 200px;
     background-color: black;
     display: flex;
     align-items: center;
@@ -17,11 +16,55 @@ header{
     margin-top: 0;
 }
 header img{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
+}
+header h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 400;
+}
+header a{
+    font-size: 300;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: white;
 }
 section{
     display: flex;
     align-items: center;
-    
+    flex-direction: column;
+    margin: 20px;
+}
+section h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 300;
+    color: black;
+}
+section p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 200;
+}
+section img{
+    border-radius: 4%;
+}
+section button{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    border-radius: 4%;
+    color: white;
+    font-size: 700;
+    height: 25px
+}
+body{
+    background-image: url(https://neilpatel.com/wp-content/uploads/2017/12/10-tipos-de-codigos-html-web.jpeg);
+    background-size: 100%;
+}
+footer{
+    height: 200px;
+    background-color: black;
 }
