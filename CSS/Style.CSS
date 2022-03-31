@@ -10,14 +10,16 @@ header{
     justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
-    margin: 20px;
+    margin: 100px;
     margin-right: 0;
     margin-left: 0;
     margin-top: 0;
+    border-radius: 0 0 10px 10px;
 }
 header img{
     width: 150px;
     height: 150px;
+    border-radius: 10px;
 }
 header h1{
     color: white;
@@ -49,10 +51,8 @@ section p{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     font-size: 18px;
-    margin: 10px;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,6 +61,7 @@ section p{
 section img{
     border-radius: 4% 4% 0 0;
     width: 400px;
+    height: 250px;
 }
 section button{
     background-color: rgb(11, 43, 187);
@@ -78,7 +79,14 @@ body{
     background-size: 100%;
 }
 footer{
-
+height: 200px;
+background-image: url(https://media.istockphoto.com/photos/black-vintage-background-rough-dark-wall-grunge-texture-picture-id988754462?k=20&m=988754462&s=170667a&w=0&h=qP86DUB9H_zHqTBfpKDG5acSNWa3PRhOx-GppcGSjP4=);
+background-position-x: 100%;
+background-position-y: 100%;
+background-size: 100%;
+background-position: center;
+border-radius: 10px 10px 0 0;
+margin-top: 100px;
 }
 .one{
     width: 400px;
@@ -106,4 +114,15 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.one button{
+    margin-top: 20px;
+}
+.two button{
+    margin-top: 15px;
+}
+.three button{
+    margin-top: 15px;
 }
