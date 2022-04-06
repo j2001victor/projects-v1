@@ -4,7 +4,7 @@ header, h1, p, a, main, section{
 }
 header{
     height: 200px;
-    background-color: black;
+    background-image: url(https://media.istockphoto.com/photos/black-vintage-background-rough-dark-wall-grunge-texture-picture-id988754462?k=20&m=988754462&s=170667a&w=0&h=qP86DUB9H_zHqTBfpKDG5acSNWa3PRhOx-GppcGSjP4=);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -126,4 +126,27 @@ main{
 }
 .three a{
     margin-top: 15px;
+}
+.form{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 4%;
+    flex-direction: column;
+}
+.form input{
+    width: 300px;
+}
+.form label{
+    padding-bottom: 10px;
+    padding-right: 155px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
